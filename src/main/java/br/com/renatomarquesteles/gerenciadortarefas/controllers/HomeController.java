@@ -11,7 +11,7 @@ public class HomeController {
 	public ModelAndView home() {
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("home/home");
-		mv.addObject("mensagem", "Mensagem do controller");
+		mv.addObject("mensagem", "Seja bem-vindo ao Gerenciador de Tarefas!");
 		return mv;
 	}
 
